@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Partidas Rankeadas</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de Partidas Rankeadas</h2>
+        <form id="rankedForm">
+            <label for="vitorias">Vitórias:</label>
+            <input type="number" id="vitorias" name="vitorias" required>
+            <label for="derrotas">Derrotas:</label>
+            <input type="number" id="derrotas" name="derrotas" required>
+            <button type="button" id="calcularBtn">Calcular</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="/src/js/script.js"></script>
+</body>
+</html>
